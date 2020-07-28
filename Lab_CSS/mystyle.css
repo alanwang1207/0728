@@ -1,0 +1,42 @@
+body {
+    padding-left: 13em;
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+    color: rgb(73, 182, 64);
+    background-color: #fff;
+    background-image: url(../Demo/images/gradientBlue.png);
+    background-repeat: repeat-x;
+  }
+    /*導覽列*/
+    ul.navbar {           
+    position: absolute;
+    top: 3em;/*上外邊框*/ 
+    left: 2em;/*左外邊框*/
+    width: 9em ;
+    list-style-type: none; /*分點拿掉*/
+    padding: 0; 
+    margin: 0;}/*padding寬度*/
+  h1 {
+    font-family: Helvetica, Geneva, Arial,
+          SunSans-Regular, sans-serif }
+
+  ul.navbar li {
+    background: white;
+    margin: 0.5em 0;/*外邊框上下0.5 左右0*/
+    padding: 0.3em;/*內邊框皆為0.5*/
+    border-right: 0.5em solid rgb(35, 23, 202) } /*右邊線加粗0.5em*/
+    
+  ul.navbar a {
+    text-decoration: none }/*取消超連結底線*/
+  a:link {
+    color:rgb(187, 93, 17) }/*超連結字體顏色*/
+  a:visited {
+    color: purple }/*點過超連結後的顏色*/
+    address {
+    margin-top: 1em;/*上外邊框距離*/
+    padding-top:1em;/*上內邊框距離*/
+    border-top: dotted;/*上邊線小點*/
+    border-top-color: darkgreen;/*上邊線顏色*/
+    color:hotpink;/*字體顏色*/
+    
+     }
